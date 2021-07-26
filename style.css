@@ -32,6 +32,14 @@ body {
     font-size: 20px;
 }
 
+/*menu hover*/
+.menu a:hover {
+    border-bottom: 2px solid orangered;
+    border-bottom-width: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 .headSlides {
     background-size: cover;
     background-position: center;
@@ -329,8 +337,8 @@ h3 {
 
 table th {
     font-size: 22px;
-    background-color: lightgrey;
-    border-radius: 3px;
+    background-color: papayawhip;
+    border-radius: 95px;
     box-shadow: 2px 2px 5px gray;
     padding: 10px;
     width: 30%;
@@ -346,6 +354,10 @@ table tr {
 table td {
     display: flex;
     flex-direction: row;
+    border-radius: 95px;
+    margin-bottom: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
 }
 
 span {
@@ -354,6 +366,10 @@ span {
 
 hr {
     display: none;
+}
+
+.hr {
+    display: block;
 }
 
 /*PROGRESS*/
@@ -386,7 +402,7 @@ hr {
 /*SOCIALS*/
 
 footer {
-    background-color: beige;
+    background-color: lightyellow;
     height: 14vh;
     width: 100%;
 }
@@ -406,7 +422,6 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 3px;
-    
 }
 
 .wrapContact {
@@ -481,7 +496,7 @@ iframe {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        height: 50vh;
+        height: 30vh;
         position: relative;
         left: 0;
         top: 0;
@@ -635,6 +650,11 @@ iframe {
         width: 90%;
     }
 
+    table td {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
     table th {
         font-size: 22px;
         background-color: lightgrey;
@@ -650,6 +670,10 @@ iframe {
     hr {
         display: block;
         margin-top: 30px;
+    }
+
+    .hr {
+        display: none;
     }
 
     /*CONTACT*/
@@ -676,11 +700,16 @@ iframe {
 
     /*Social Media*/
 
+    footer {
+        background-color: white;
+    }
+
     .socials {
         display: flex;
         justify-content: center;
         background-color: white;
         border: none;
+        margin-top: 30px;
     }
 
     .socials a {
