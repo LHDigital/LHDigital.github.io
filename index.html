@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dance Studio</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="title" content="Dance Studio">
+		<meta name="description" content="Dance studio available classes in London and online.">
+		<meta name="keywords" content="Dance, Studio, Classes, Online, In person dance classes, Online dance classes, Street dance, ballet">
+		<meta name="author" content="LizH">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+        <script src="menu.js" defer></script>
+        <script src="carousel.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+        <!--Nav - Fixed-->
+            <nav class="navigation">
+                <a href="#" class="menuIcon" onclick="viewMenu()"><i class="fas fa-bars"></i></a>
+                <div class="menu" id="menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#classes">Classes</a> 
+                    <a href="#timetable">Timetable</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#progress">Progression</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+      
+        <!--Header images - carousel - wide in width-->
+            <h1> <a class="previous" onclick="">&#10094;</a> &nbsp; Dance Studio &nbsp; <a class="next" onclick="">&#10095;</a></h1>
+            <div class="slider">
+                <div class="headSlides slide1"> </div>
+                <div class="headSlides slide2"> </div>
+                <div class="headSlides slide3"> </div>
+                <div class="headSlides slide4"> </div>
+                <div class="headSlides slide5"> </div>
+                <div class="headSlides slide6"> </div>
+            </div>
+            <br/>
+        </header>
+        <main>
+            <section class="decoration"></section>
+            <section class="intro outerSections" id="about"><!--Intro to the dance studio and what we offer-->
+                <div class="boxPara">
+                    <p class="centerIntroText">Welcome to the studio - the hub for creativity and freedom. Come and explore our classes, 
+                        dance styles, timetable, performances and more. <br/><br/> We cater for all levels, ages and abilities, so join us now!
+                    <br/><br/></p>
+                    <a href="#contact" class="contactButton"> Find out more!</a>
+                </div>
+                <img class="headerImg" src="./Images/slide6.jpg" width="30%" height="100%"> 
+            </section>
+        
+            <section class="classes outerSections" id="classes"><!--Classes - styles of dance-->
+                <h2 class="header2">Classes</h2>
+                <section class="wrapClasses">
+                    <article class="danceStyle danceStyle1">
+                        <p class="classBox">Street dance</p>
+                    </article>
+                    <article class="danceStyle danceStyle2">
+                        <p class="classBox">Hip Hop</p>
+                    </article>
+                    <article class="danceStyle danceStyle3">
+                        <p class="classBox">Ballet</p>
+                    </article>
+                    <article class="danceStyle danceStyle4">
+                        <p class="classBox">Latin</p>
+                    </article>
+                    <article class="danceStyle danceStyle5">
+                        <p class="classBox">Ballroom</p>
+                    </article>
+                    <article class="danceStyle danceStyle6">
+                        <p class="classBox">Jazz</p>
+                    </article>
+                </section>
+            </section>
+            <section class="timetable outerSections" id="timetable"><!--Timetable--> 
+                <h2 class="header2">Timetable</h2>
+                <section class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Monday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p><span> Adult Street Dance </span></p><p>Beginner Level</p><p> 7pm - 8pm </p><p> £7 </p> <p>Teacher: Liz</p><p>In studio or online class</p><br/><br/></td>
+                                <td><p><span> Adult Ballet</span></p><p>Beginner Level</p><p> 7pm - 8pm </p><p> £7 </p><p> Teacher: Basil</p><p>In studio or online class</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr><br/><br/>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tuesday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p><span> Jazz</span></p><p>Intermediate Level</p><p> 7pm - 8pm </p><p> £7 </p><p> Teacher: Brad</p><p>In studio or online class</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr><br/><br/>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Wednesday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p><span> Latin for all</span></p><p>Advanced Level</p><p> 7pm - 8pm </p><p> £7 </p><p> Teacher: Jac</p><p>In studio or online class</p><br/><br/></td>
+                                <td><p><span> Ballroom for all</span></p><p>Intermediate Level</p><p> 7pm - 8pm </p><p> £7 </p><p> Teacher: Jac</p><p>In studio or online class</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr><br/><br/>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Saturday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p><span>Adult Hip Hop</span></p><p>Beginner Level</p><p> 7pm - 8pm </p><p>£7 </p><p> Teacher: Liz</p><p>In studio or online class</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+            <section class="gallery outerSections" id="gallery"><!--Videos and images display-->
+                <h2 class="header2">Gallery</h2>
+            <section class="innerSlides">
+                <section class="containerGallery container">
+                    <div class="gallerySlides slide7" id="slide7"></div>
+                    <div class="hoverTextStyling hoverText">
+                        <div class= hoverTexts>Colourful expressions</div>
+                    </div>
+                </section>
+                <section class="containerGallery container1">
+                    <div class="gallerySlides slide8" id="slide8"></div>
+                    <div class="hoverTextStyling hoverText1">
+                        <div class= hoverTexts>Elegant flow</div>
+                    </div>
+                </section>
+                <section class="containerGallery container2">
+                    <div class="gallerySlides slide9" id="slide9"></div>
+                    <div class="hoverTextStyling hoverText2">
+                        <div class= hoverTexts>Upside down</div>
+                    </div>
+                </section>
+                <section class="containerGallery container3">
+                    <div class="gallerySlides slide10" id="slide10"></div>
+                    <div class="hoverTextStyling hoverText3">
+                        <div class= hoverTexts>Feeling free</div>
+                    </div>
+                </section>
+                <section class="containerGallery container4">
+                    <div class="gallerySlides slide11" id="slide11"></div>
+                    <div class="hoverTextStyling hoverText4">
+                        <div class= hoverTexts>Point</div>
+                    </div>
+                </section>
+                <section class="containerGallery container5">
+                    <div class="gallerySlides slide12" id="slide12"></div>
+                    <div class="hoverTextStyling hoverText5">
+                        <div class= hoverTexts>Drum and dance</div>
+                    </div>
+                </section>
+            </section>
+            </section>
+            <section class="progression outerSections" id="progress"><!--Progression from beginner to advanced, certficates, awards, performances, exams-->
+                <h2 class="header2">Progression</h2>
+                <section class="progWrap">
+                    <section class="prog certificates">
+                        <i class="fas fa-certificate icons"></i>
+                        <h3 class="header3">Certificates</h3>
+                        <p class="progParas">We offer a range of certificates for your hard work in various dance classes</p>
+                    </section>
+                    <section class="prog awards">
+                        <i class="fas fa-award icons"></i>
+                        <h3 class="header3">Awards</h3>
+                        <p class="progParas">We offer a range of awards to showcase your hard work in various dance classes.</p>
+                    </section>
+                    <section class="prog performance">
+                        <i class="fas fa-theater-masks icons"></i>
+                        <h3 class="header3">Performances</h3>
+                        <p class="progParas">We offer a range of opportunities to take part in performances. Show off your hard work from your dance classes.</p>
+                    </section>
+                    <section class="prog exams">
+                        <i class="fas fa-book-open icons" width="5%" height="5%"></i>
+                        <h3 class="header3">Exams</h3>
+                        <p class="progParas">We provide a range of exams to display your hard work in various dance classes.</p>
+                    </section> 
+                </section>
+            </section>
+            <section class="contact outerSections" id="contact"> <!--Contact-->
+                <h2 class="header2">Contact</h2> 
+                <div class="wrapContact">
+                    <div class="wrapDetails">
+                        <p class="details"><strong>Address: </strong>123 Dan Street<br/>London <br> NW5 PSA</p>
+                        <p class="details"><strong>Number:</strong> 07955566612</p>
+                        <p class="details"><strong>Email:</strong> Dan@street.com</p><br/>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1626294816356!5m2!1sen!2suk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="socials outerSections">
+                <a class="Twitter" href="#"><img src="./Images/Socials/twitter1.png" alt="Twitter icon"/></a>
+                <a class="Instagram" href="#"><img src="./Images/Socials/instagram1.png" alt="Instagram icon"/></a>
+                <a class="Facebook" href="#"><img src="./Images/Socials/facebook1.png" alt="Facebook icon"/></a>
+            </section>
+        </footer>
+    </body>
+</html>
